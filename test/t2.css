@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background: #f7f8fa;
+  font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.first-login {
+  width: 100%;
+  font-size: 0.55rem;
+  padding-top: 2.875rem;
+}
+.first-login .first-login-header {
+  width: 13rem;
+  height: 2rem;
+  margin: 0 auto;
+  margin-bottom: 0.625rem;
+}
+.first-login .first-login-header p {
+  font-size: 0.55rem;
+  line-height: 1.82;
+  text-align: center;
+  color: #71767a;
+}
+.first-login .first-login-choose {
+  width: 26.5rem;
+  height: 12rem;
+  border-radius: 0.3rem;
+  background-color: #ffffff;
+  border: solid 0.025rem #eeeff2;
+  margin: 0 auto;
+  padding-top: 0.875rem;
+  padding-left: 0.75rem;
+  padding-right: 0.25rem;
+  margin-bottom: 2.2rem;
+}
+.first-login .first-login-choose ul li {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 0.15rem;
+  box-shadow: 0 0.05rem 0.25rem 0 rgba(0, 0, 0, 0.3);
+  float: left;
+  margin-right: 0.45rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+.first-login .first-login-choose ul li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.15rem;
+}
+.first-login .first-login-choose ul li .choose-icon {
+  position: absolute;
+  width: 0.65rem;
+  height: 0.65rem;
+  background: url("../img/btn-unselected@2x.png") no-repeat 0 0;
+  background-size: 100%;
+  top: 0.25rem;
+  right: 0.25rem;
+  z-index: 2;
+}
+.first-login .scrollbar {
+  widows: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.first-login .scrollbar .force-overflow {
+  min-height: 25rem;
+}
+.first-login .scrollbar::-webkit-scrollbar-track {
+  border-radius: 0.1rem;
+  background-color: #ffffff;
+}
+.first-login .scrollbar::-webkit-scrollbar {
+  width: 0.2rem;
+  background-color: #ffffff;
+}
+.first-login .scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 0.1rem;
+  background-color: #d7dde1;
+}
+.first-login .first-login-next a {
+  display: block;
+  width: 6rem;
+  height: 1rem;
+  border-radius: 0.075rem;
+  background-color: #0099e5;
+  box-shadow: inset 0 0.05rem 0 0 #00aaff;
+  border: solid 0.025rem #0081c1;
+  margin: 0 auto;
+  font-size: 0.425rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1rem;
+}
